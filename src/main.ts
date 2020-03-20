@@ -18,15 +18,15 @@ goku.isMoved();
 
 // Step #2
 console.log("--- STEP #2 ---")
-const majdi: Elf = new Elf("makiboto")
+const alexis: Elf = new Elf("Alexis3490")
 const box: Packaging = new Box()
-majdi.pack(box,goku)
+alexis.pack(box,goku)
 box.open();
-majdi.pack(box,goku)
+alexis.pack(box,goku)
 
 const paper: Packaging = new GiftWrap()
-majdi.pack(paper, pony)
-majdi.pack(paper, pony)
+alexis.pack(paper, pony)
+alexis.pack(paper, pony)
 
 
 
